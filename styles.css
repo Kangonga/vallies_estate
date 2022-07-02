@@ -1,11 +1,10 @@
 #main {
     position: absolute;
-    width: 80%;
+    width: 100%;
 }
 
 .nav-bar {
     display: block;
-    position: absolute;
     top: 10px;
     width: 100%;
 }
@@ -23,7 +22,7 @@
     font-family: 'Space-Mono', monospace;
 }
 .blue {
-    color: blue;
+    color: #2549D3;
     font-weight: 600;
 }
 .get-started {
@@ -31,13 +30,68 @@
     margin-left: 100px;
     margin-top: 5px;
     right: 60px;
-    border: 2px solid blue;
-    background-color: blue;
+    border: 2px solid #2549D3;
+    background-color: #2549D3;
     border-radius: 4px;
     color : white;
     height: 36px;
     width: auto;
 }
 hr {
-    border: 1px solid black;
+    border: solid black;
+    border-width: thin;
+}
+
+
+/* ******************************************************** */
+.intro {
+    display: flex;
+    margin: 40px;
+    
+}
+.intro-content {
+    width: 50%;
+    display: inline-block;
+}
+.lower-content {
+    position: relative;
+    
+    margin: 10px 0;
+}
+.play-icon {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    top:3px;
+    color: #FAFAFA;
+    color: #0F298B;
+
+    
+
+}
+.children {
+    display: inline;
+    width: 50%;
+    margin: 0 5px;
+
+}
+
+.learn-more {
+    background-color: #2549D3;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #2549D3;
+    height:36px;
+    width: auto;
+}
+
+.intro-images {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+    width: 50%;
+}
+.intro-image {
+    width: 70%;
 }

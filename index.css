@@ -1,0 +1,43 @@
+#main {
+    position: absolute;
+    width: 80%;
+}
+
+.nav-bar {
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+
+.nav-title {
+    position: relative;
+    font-size: 20px;
+    margin: 30px 70px 20px 40px;
+    font-family: 'Oleo Script', cursive;
+}
+
+.menu {
+    margin: 10px;
+    font-family: 'Space-Mono', monospace;
+}
+.blue {
+    color: blue;
+    font-weight: 600;
+}
+.get-started {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+    right: 60px;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 4px;
+    color : white;
+    height: 36px;
+    width: auto;
+}
+hr {
+    border: 1px solid black;
+}

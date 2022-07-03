@@ -202,3 +202,37 @@ hr {
 .products-image3 {
     width: 40%;
 }
+
+
+/* ************************************************************* */
+
+.call-to-action {
+    display: flex;
+    margin-left: 50px;
+}
+
+.call-to-action-child {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.call-to-action-image {
+    width: 75%
+}
+.call-to-action-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.call-to-action-ticks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.ticks {
+    
+    margin: 10px;
+}

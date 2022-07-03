@@ -1,5 +1,8 @@
 html {
     background-color: rgba(248, 244, 244, 0.925);
+    font-family: 'Space-Mono', monospace;
+    font-size: 15px;
+    margin-top: 10px;
 }
 #main {
     position: absolute;
@@ -235,4 +238,26 @@ hr {
 .ticks {
     
     margin: 10px;
+}
+/* **************************************************************** */
+
+.other-properties {
+    margin:80px 20px 10px 50px
+}
+
+.other-properties-images {
+    display: flex;
+}
+.other-properties-image {
+    width: 30%;
+    margin-right:20px;
+}
+.other-properties-title {
+    color: #2549D3;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.other-properties-description { 
+
+    margin-bottom: 20px;
 }

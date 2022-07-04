@@ -1,3 +1,153 @@
+#main {
+    background-color: #fafafa;
+    margin-left: 80px;
+    font-family: 'Space-Goretzsk', monospace;
+    
+    /* color: #2549D3;
+    color: #0f298b; */
+}
+
+
+.nav-bar {
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.nav-child1 {
+    width: 20%;
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    
+}
+.nav-child2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-child3 {
+    width: 15%;
+}
+
+.home {
+    color: #2549d3;
+}
+
+.button {
+    background-color: #2549d3;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid blue;
+    font-family: 'Space-Mono', monospace;
+    margin-left: 20px;
+}
+.get-started {
+    position: absolute;
+    right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
 html {
     background-color: rgba(248, 244, 244, 0.925);
     font-family: 'Space-Mono', monospace;
@@ -48,7 +198,7 @@ hr {
 }
 
 
-/* ******************************************************** */
+
 .intro {
     display: flex;
     margin: 40px;
@@ -114,7 +264,7 @@ hr {
     margin: 10px 0 20px 0;
 }
 
-/* *********************************************************** */
+
 
 .search {
     font-family: 'Space-Mono', monospace;
@@ -154,7 +304,7 @@ hr {
 }
 
 
-/* ******************************************************** */
+
 .products {
     margin: 50px;
 }
@@ -222,7 +372,7 @@ hr {
 
 
 
-/* ************************************************************* */
+
 
 .call-to-action {
     display: flex;
@@ -260,7 +410,7 @@ hr {
 
 
 
-/* **************************************************************** */
+
 
 .other-properties {
     margin:80px 20px 10px 50px;
@@ -285,7 +435,6 @@ hr {
     margin-bottom: 20px;
 }
 
-/* ********************** */
 
 .footer {
     display: flex;
@@ -303,3 +452,21 @@ hr {
 ul {
     list-style: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

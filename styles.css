@@ -281,15 +281,10 @@ li {
 
 .property >div {
     display: flex;
+    flex-direction: row;
 }
 
-.view-more {
-    display: flex;
-    margin-left: 70vw;
-    margin-top: 20px;
-}
-.view-more button {
-} 
+
 
 
 

@@ -410,9 +410,20 @@ h4 {
     flex-direction: column;
 }
 
+.fheading {
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-div {
+    margin: 20px;
+}
 
-
-
+.first
+{
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 

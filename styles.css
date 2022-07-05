@@ -41,9 +41,12 @@
     font-family: 'Oleo Script', cursive;
     font-size: 25px;
     margin-top: 8px;
-    color: black;
+    color: black;    
+}
 
-    
+li:first-child {
+    color: #2549d3;
+    font-weight: bold;
 }
 .menu-items {
     display: flex;
@@ -160,10 +163,24 @@ li {
 
 
 
+/* ************************************** */
+.section4 {
+    display: flex;
+}
 
-
-
-
+.title {
+    color: #0f298b;
+    font-size: 40px;
+}
+.subtitle {
+    text-align: center;
+}
+.subtitle h3 {
+    color: #2549d3;
+}
+.subtitle p {
+    color: gray;
+}
 
 
 

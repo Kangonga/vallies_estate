@@ -195,11 +195,21 @@ li {
 
 
 .carousel-child {
-    width: 30%;
+    width: 25%;
     box-shadow: 2px 4px 3px 2px lightgray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+.carousel-image img {
+    width: 50%;
 }
 
-
+#address {
+    width: 20%;
+}
 
 
 

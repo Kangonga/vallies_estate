@@ -165,22 +165,28 @@ li {
 
 /* ************************************** */
 .section4 {
-    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
 }
 
 .title {
     color: #0f298b;
     font-size: 40px;
+    display: block;
+    margin-bottom :20px ;
 }
 .subtitle {
     text-align: center;
+    margin-top: 20px;
 }
 .subtitle h3 {
     color: #2549d3;
+    font-size: 29px;
 }
 .subtitle p {
     color: gray;
 }
+
 
 
 

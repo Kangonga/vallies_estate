@@ -1,74 +1,159 @@
 #main {
     background-color: #fafafa;
-    margin-left: 80px;
+    
     font-family: 'Space-Goretzsk', monospace;
     
     /* color: #2549D3;
     color: #0f298b; */
 }
-
-
-.nav-bar {
-    display: flex;
-    margin-bottom: 40px;
-    
-}
-.nav-child1 {
-    width: 20%;
-    font-family: 'Oleo Script', cursive;
-    font-size: 25px;
-    
-}
-.nav-child2 {
-    width: 40%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.nav-child3 {
-    width: 15%;
-}
-
-.home {
-    color: #2549d3;
-}
-
 .button {
     background-color: #2549d3;
     color: white;
     display: inline-block;
-    width: 100px;
+    width: 130px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 6px;
     border: solid blue;
     font-family: 'Space-Mono', monospace;
+    
+}
+
+.button:hover {
+    cursor:grabbing;
+}
+
+
+
+
+
+
+/* Navigation Bar */
+
+
+.nav-bar {
+    display: flex;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 40px 20px 80px;
+    color: rgb(46, 44, 44);
+
+}
+.nav-child1 {
+    font-family: 'Oleo Script', cursive;
+    font-size: 25px;
+    margin-top: 8px;
+    color: black;
+
+    
+}
+.menu-items {
+    display: flex;
+    gap: 11px;
+}
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+.nav-child2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.get-started {
+    margin-right: 180px;
+    margin-top: 8px;
     margin-left: 20px;
 }
-.get-started {
-    position: absolute;
-    right: 50px;
+
+
+
+/*  Section two. With an image and textual introduction */
+
+
+
+.section2 {
+    display: flex;
+    gap: 40px;
+    margin: 70px 40px 20px 80px;
+    justify-content: space-around;
+}
+
+.child {
+    width: 50%;
+}
+.child.content {
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+* {
+    outline: solid black;
+}
+
+.main-content {
+    font-size: 50px;
+    color: #0f298b;
+}
+.mid-content {
+    color:  rgb(46, 44, 44);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.end-content {
+    display: flex;
+    gap: 20px;
+}
+.learn-more {
+    color: white;  
+      
+}
+
+.image1 {
+    width: 80%;
+}
+
+.play {
+    width: 30%;
+    
 }
 
 
 
 
+/* ************************************************************************************************ */
+
+.section3{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    justify-content:space-evenly;
+    background-color: white;
+}
+
+.section3-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.grandchild {
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.city {
+    color:#2549d3;
+    font-weight:bolder;
+    font-size: 17px;
+}
 
 
 

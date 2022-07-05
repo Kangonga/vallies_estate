@@ -220,6 +220,7 @@ li {
     justify-content: center;
     margin-left: 200px;
     margin-top: 120px;
+    flex-wrap: wrap;
 }
 .section5 div {
     width: 50%;
@@ -236,6 +237,7 @@ li {
     flex-direction: column;
     justify-content: space-around;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .content-title {
     font-size: 20px;
@@ -244,13 +246,31 @@ li {
 }
 
 .content-body {
+    color:gray;
 
 }
 
 
+.foot {
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    justify-content: space-between;
+}
 
-
-
+/* ****************************** */
+.properties {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.property {
+    width: 30%;
+}
+.property img {
+    width: 80%;
+}
 
 
 

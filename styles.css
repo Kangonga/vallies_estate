@@ -1,6 +1,8 @@
 #main {
     background-color: #fcf8f8;
     font-family: 'Space-Goretzsk', monospace;
+    width: 100%;
+   margin-left: 0;
     
 }
 .button {
@@ -166,7 +168,7 @@ li {
 /* ************************************** */
 .section4 {
     margin-top: 70px;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 .title {
@@ -218,16 +220,19 @@ li {
 .section5 {
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 120px;
     flex-wrap: wrap;
 }
-.section5 div {
+/* .section5 div {
     width: 50%;
+} */
+.image {
+    width: 40%;
 }
 .image img {
     width: 80%;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -263,13 +268,19 @@ li {
 .properties {
     display: flex;
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 150px;
+    background-color: white;
+   
 }
 .property {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: 2px 2px 3px 2px rgb(238, 237, 237);
+    flex-wrap: wrap;
+    border: 4px solid white;
+    border-radius: 8px;
 }
 .property img {
     width: 80%;
@@ -278,6 +289,7 @@ li {
 .captions {
    width: 50%;
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
 }
 
@@ -316,33 +328,87 @@ li {
     margin-bottom: 10px;
 }
 
+.cus-names {
+    display: flex;
+    justify-content: center;
+    margin-left: 4px;
+    gap: 30px;
+}
+.cus1, .cus2, .cus3 {
+    width: 20%;
+    background-color: white;
+    border: 3px solid white;
+}
+
+
+.custitle, .cus-subtitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custitle {
+    color: #0f298b;
+    font-size: 28px;
+}
+
+
+.cus-subtitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: gray;
+   
+}
+
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px;
+}
+.country {
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.lorem {
+    margin: 10px;
+}
 
 
 
+/* *********************************************** */
+
+.footer {
+    background-color:#0f298b;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer > div {
+    width: 20%;
+}
 
 
 
+#footer-li {
+    list-style: none;
+    color: white;
+    font-weight: normal;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.f1,.f2,.f3,.f4 {
+    display: flex;
+    flex-direction: column;
+}
 
 
 

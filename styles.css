@@ -181,16 +181,23 @@ li {
 }
 .subtitle h3 {
     color: #2549d3;
-    font-size: 29px;
+    font-size: 26px;
 }
-.subtitle p {
+.subtitle span {
     color: gray;
+    font-size: 17px;
+}
+
+.carousel { 
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
-
-
-
+.carousel-child {
+    width: 30%;
+    box-shadow: 2px 4px 3px 2px lightgray;
+}
 
 
 

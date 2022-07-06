@@ -46,7 +46,7 @@
     color: black;    
 }
 
-.nav-child2 > ul> li:first-child {
+.home-nav {
     color: #2549d3;
     font-weight: bold;
 }
@@ -317,9 +317,6 @@
     justify-content: end;
     margin: 70px 90px 80px auto;
 }
-.view-more > button {
-
-}
 
 .xters >li {
     color: black;
@@ -413,8 +410,8 @@ h4 {
 
 .fheading {
     font-family: 'Oleo Script', cursive;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
+    margin-bottom: 8px;
 }
 .footer-div {
     margin: 20px;
@@ -422,7 +419,7 @@ h4 {
 
 .first
 {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
 }
 
@@ -432,9 +429,8 @@ h4 {
 .footer-div {
     display:flex;
     flex-direction:column;
-    gap:10px;
 }
-
-
-
-
+.footer-div li {
+    list-style: none;
+    margin-bottom: 10px;
+}
